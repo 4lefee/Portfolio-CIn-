@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url('Design sem nome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ 
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-right: 0;
+    margin-left: 0;
+    background-color: rgb(12, 74, 167);
+    position: inherit;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  .sbt {color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(12, 74, 167);
+    text-shadow: 0.1em 0.1em 0.2em black;}
+
+  .sbt2 {color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(12, 74, 167);
+    text-shadow: 0.1em 0.1em 0.2em black;}
+
+  .sbt3 {color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(12, 74, 167);
+    text-shadow: 0.1em 0.1em 0.2em black;}
+
+  .sbt4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(12, 74, 167);
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+
+  .sbt5 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(12, 74, 167);
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  .pqntxt {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+  }
+
+  .pqntxt2 {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+  }
+
+  .pqntxt3 {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+  }
+
+  .bio {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+  }
+  
+  .pqntxt:hover{
+    transform: scale(1.2);
+  }
+
+  .pqntxt2:hover{
+    transform: scale(1.2);
+  }
+
+  .pqntxt3:hover{
+    transform: scale(1.2);
+  }
+
+  .bio:hover {
+    transform: scale(1.2);
+  }
+  
+  .txt {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  
+  .bio {
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 800px;
+    padding: 10px;
+  }
+  
+  .inf {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 150px;
+    margin-left: 1600px;
+    width: 215px;
+    height: 0;
+    position: relative;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    transition: 1s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 860px;
+  }
+  
+  .logo2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    transition: 1s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .logo:hover {
+    transform: scale(1.2);
+  }
+
+  .logo2:hover {
+    transform: scale(1.2);
+  }
+
+  #img {
+    display: flex;
+    justify-content: center;
+  }
+
+  #divfoto { 
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    #img {
+      margin-left: 0px;
+      margin-top: 50px;
+      width: 60px;
+      height: 60px;
+      position: relative;
+      border-radius: 60%;
+      scale: 230%;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+      
+      
+    }
+  
+    .titulo {
+      font-size: 30px;
+      margin-top: 50px;
+      height: 50px;
+    }
+  
+    .sbt {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .sbt2 {
+      margin-top: 0px;
+    }
+    
+    .sbt3 {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .sbt4 {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .sbt5 {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .sbt2 {
+        margin-top: 0px;
+
+    }
+  
+    .pqntxt {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 280px;
+      padding: 10px;
+    }
+
+    .pqntxt2 {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 280px;
+      padding: 10px;
+    }
+
+    .pqntxt3 {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 280px;
+      padding: 10px;
+    }
+
+    .bio {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 280px;
+      padding: 10px;
+    }
+  
+
+    .inf {
+      margin-left: 0;
+      margin-top: 50px;
+    }
+  
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 30px;
+      margin-left: 100px;
+      margin-top: 50px;
+      
+    }
+
+    .logo2 {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+      margin-top: 50px;
+    }
+    
+  }
+  
+
+  @media (min-width: 601px) and (max-width: 900px) {
+    #img {
+      margin-left: 0px;
+      margin-top: 80px;
+      width: 80px;
+      height: 80px;
+      position: relative;
+      border-radius: 60%;
+      scale: 230%;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+      
+    }
+  
+    .titulo {
+      font-size: 60px;
+      margin-top: 40px;
+      height: 75px;
+    }
+  
+    .sbt {
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sbt2 {
+      margin-top: 0px;
+
+    }
+
+    .sbt3 {
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .sbt4 {
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .sbt5 {
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  
+    .pqntxt {
+      margin-left: 80px;
+      margin-right: 80px;
+      width: 400px;
+      padding: 20px;
+    }
+
+    .pqntxt2 {
+      margin-left: 80px;
+      margin-right: 80px;
+      width: 400px;
+      padding: 20px;
+    }
+
+    .pqntxt3 {
+      margin-left: 80px;
+      margin-right: 80px;
+      width: 400px;
+      padding: 20px;
+    }
+
+    .bio {
+      margin-left: 80px;
+      margin-right: 80px;
+      width: 400px;
+      padding: 20px;
+    }
+    
+    .inf {
+      margin-left: 0;
+      margin-top: 80px;
+    }
+  
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+      margin-left: 200px;
+    }
+
+    .logo2 {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+      margin-left: 0px;
+    }
+    
+  }
+  
+
+  @media (min-width: 901px) {
+    #img {
+      margin-left: 0px;
+      margin-top: 100px;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 60%;
+      scale: 230%;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+      
+    }
+  
+    .titulo {
+      font-size: 50px;
+      margin-top: 100px;
+      height: 100px;
+    }
+  
+    .sbt  {
+      margin-right: 600px;
+      margin-left: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    
+    .sbt2 {
+      margin-top: 0px;
+   
+    }
+
+    .sbt3  {
+      margin-right: 600px;
+      margin-left: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .sbt4  {
+      margin-right: 600px;
+      margin-left: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+   
+
+    .sbt5 {
+      margin-right: 600px;
+      margin-left: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .pqntxt {
+      margin-left: 500px;
+      margin-right: 500px;
+      width: 800px;
+      padding: 20px;
+    }
+
+    .pqntxt2 {
+      margin-left: 500px;
+      margin-right: 500px;
+      width: 800px;
+      padding: 20px;
+    }
+
+    .pqntxt3 {
+      margin-left: 500px;
+      margin-right: 500px;
+      width: 800px;
+      padding: 20px;
+    }
+
+    .bio {
+      margin-left: 500px;
+      margin-right: 500px;
+      width: 800px;
+      padding: 20px;
+    }
+  
+
+    .inf {
+      margin-left: 1600px;
+    }
+  
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-left: 860px;
+    }
+  
+    .logo2 {
+      width: 60px;
+      height: 60px;
+      margin-left: 0px;
+   
+  }
+}
+ 
